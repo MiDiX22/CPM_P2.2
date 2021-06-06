@@ -94,5 +94,6 @@ int main()
     printf ("(%d) Theta; %g, %g  cost: %g\n",i,theta0,theta1,ct);
   }
 
+  MPI_Finalize();
   return(0);
 }
